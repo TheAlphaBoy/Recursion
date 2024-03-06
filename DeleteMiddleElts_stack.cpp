@@ -4,7 +4,7 @@
 using namespace std;
 
 void solve (stack<int>& st, int k) {
-   if(st.size()==1){
+   if(st.size()==1){ 
    st.pop(); // base condition
    return;
    }
